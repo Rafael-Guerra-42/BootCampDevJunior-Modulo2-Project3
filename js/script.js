@@ -13,9 +13,9 @@ function AddForm(){
     </div>
     <hr>
     `;
-
-
-
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("phone").value = "";
 };
 function SelectedRadioButton(radioButton){
     for (let i =0; i<radioButton.length; i++){
